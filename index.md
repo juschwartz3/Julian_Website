@@ -19,7 +19,7 @@
 ## Professional Experience
 
 ### Penn Color | Hatfield, PA
-**Scientist** | May 2024 – Present
+**Scientist** | May 2024 – June 2025
 **Associate Scientist** | January 2023 – May 2024
 **Thermoplastics Technician** | October 2021 – January 2023
 
