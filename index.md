@@ -1,7 +1,7 @@
 # Julian Schwartz
 **973 Valley Road, Blue Bell, Pennsylvania**
 215-528-8241 • juschwartz3@gmail.com
-![Alt text]({{ site.baseurl }}/Images/Headshot.jpg)
+![Alt text](/Images/Headshot.jpg)
 ---
 
 ## Education
