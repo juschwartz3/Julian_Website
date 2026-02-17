@@ -6,20 +6,4 @@ categories: [personal, hobbies]
 description: "My interests and hobbies beyond the laboratory"
 ---
 
-While I spend much of my professional life working with analytical instrumentation and chemical analysis, I believe in maintaining a well-rounded life outside the lab. Outside of chemistry, my interests include playing bass, hiking, and birdwatching.
-
-## Music: Playing Bass
-
-There's something deeply satisfying about the low-end frequencies of a bass guitar. Whether it's laying down a groove or exploring complex basslines, playing bass provides a creative outlet that's completely different from my analytical work in chemistry. Music requires a different kind of precision than laboratory work—one that's more intuitive and expressive.
-
-## Hiking
-
-Getting outdoors and exploring trails offers a perfect counterbalance to time spent in the laboratory. Hiking provides not only physical exercise but also mental clarity. There's something refreshing about trading lab coats for hiking boots and swapping the hum of analytical instruments for the sounds of nature.
-
-## Birdwatching
-
-Perhaps there's a connection between my analytical training and birdwatching—both require careful observation, attention to detail, and patience. Identifying bird species, understanding their behaviors, and appreciating their diversity brings a sense of discovery that parallels scientific research, but in a more relaxed and contemplative setting.
-
----
-
-These hobbies help me maintain balance and perspective, reminding me that there's a rich world to explore beyond mass spectrometers and chromatograms. They recharge my creativity and keep me grounded—qualities that ultimately make me better at my professional work as well.
+Outside of chemistry, my interests include playing bass, hiking, and birdwatching.
