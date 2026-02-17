@@ -1,0 +1,101 @@
+---
+title: "Creating This Website with Quarto"
+author: "Julian Schwartz"
+date: "2026-02-17"
+categories: [web development, quarto, portfolio]
+description: "How I built this personal website using Quarto and GitHub Actions for automatic deployment"
+---
+
+## Introduction
+
+As a chemistry professional transitioning into the digital age, I wanted to create a personal website that could serve dual purposes: showcase my professional credentials through a CV/resume page, and provide a platform for sharing my thoughts and experiences through a blog. This post documents the journey of creating this website.
+
+## Why Quarto?
+
+After exploring various options for building a personal website, I chose [Quarto](https://quarto.org/) for several compelling reasons:
+
+**Simplicity**: Quarto allows me to write content in Markdown (which I already knew) while generating beautiful, professional-looking HTML pages. No need to wrestle with HTML, CSS, or JavaScript unless I want to customize.
+
+**Flexibility**: Unlike pure blog platforms, Quarto's website project type supports both static pages (like my CV) and dynamic blog listings seamlessly. This was perfect for my dual-purpose needs.
+
+**Professional Appearance**: The default themes are clean and modern, with responsive design that works on mobile devices. The Cosmo theme I chose provides a professional look suitable for an academic/professional portfolio.
+
+**Integration with Scientific Tools**: Although I'm not using these features yet, Quarto has excellent support for R, Python, and Julia code execution, making it ideal for potential future posts about data analysis or scientific computing.
+
+**Open Source**: Being open source and backed by Posit (formerly RStudio), Quarto has a strong community and regular updates.
+
+## Website Structure
+
+The website has a simple but effective structure:
+
+**Homepage (CV)**: The landing page displays my curriculum vitae, including education, professional experience, and skills. This ensures that anyone visiting my site immediately sees my professional qualifications.
+
+**Blog Section**: A dedicated blog page with a listing of posts, sorted by date (newest first). Each post lives in its own directory under `posts/`, following Quarto's best practices.
+
+**Navigation**: A clean navbar with links to "Home" and "Blog", plus a GitHub icon linking to my repositories.
+
+## From Jekyll to Quarto
+
+The original version of this site was built with Jekyll (the default GitHub Pages static site generator). While Jekyll served its purpose, migrating to Quarto was straightforward:
+
+1. **Converted `index.md` to `index.qmd`**: The CV content remained essentially the same, with just YAML front matter added for Quarto configuration.
+
+2. **Created `_quarto.yml`**: This central configuration file defines the website structure, navigation, theme, and blog listing behavior.
+
+3. **Set up blog infrastructure**: Created the `blog.qmd` listing page and the `posts/` directory structure.
+
+4. **Added custom styling**: A small `styles.css` file ensures my headshot displays nicely (circular, centered) and maintains consistent formatting.
+
+## GitHub Actions Deployment
+
+One of the most powerful features of this setup is automatic deployment via GitHub Actions. Here's how it works:
+
+1. **Write Content**: I create or edit `.qmd` files locally using any text editor.
+
+2. **Commit & Push**: When I push changes to the `main` branch on GitHub, a workflow is automatically triggered.
+
+3. **Build**: GitHub Actions runs `quarto render` in a clean environment, generating the static HTML site.
+
+4. **Deploy**: The built site is automatically deployed to GitHub Pages, making it live at my custom URL.
+
+This automation means I never have to manually build or deploy the site. I can focus entirely on content creation, and the technical details are handled seamlessly.
+
+### Workflow Configuration
+
+The GitHub Actions workflow (`.github/workflows/publish.yml`) includes:
+
+- **Checkout**: Gets the repository code
+- **Setup Quarto**: Installs Quarto in the runner environment
+- **Render**: Runs `quarto render` to build the site
+- **Deploy**: Uses GitHub's official deploy-pages action to publish to GitHub Pages
+
+The workflow is configured to run on every push to `main`, ensuring the live site always reflects the latest changes.
+
+## Benefits of This Approach
+
+**Low Maintenance**: No databases, no servers to maintain, no security patches to worry about. It's just static HTML generated from Markdown.
+
+**Version Control**: All content is in Git, giving me complete history and the ability to roll back changes if needed.
+
+**Cost**: Completely free hosting via GitHub Pages.
+
+**Speed**: Static sites load incredibly fast, providing a great user experience.
+
+**Portability**: If I ever want to move away from GitHub Pages, I can easily deploy the generated `_site` folder anywhere.
+
+## What's Next?
+
+Now that the infrastructure is in place, I can focus on content. Future posts might cover:
+
+- My research and work in analytical chemistry
+- Lessons learned from working with analytical instrumentation
+- Career transitions and professional development
+- Technical tutorials or interesting problems I've solved
+
+## Conclusion
+
+Building this website with Quarto has been a rewarding experience. The tool strikes an excellent balance between simplicity and power, allowing me to create a professional online presence without getting bogged down in technical complexity.
+
+If you're considering building a personal website or blog, I highly recommend giving Quarto a try. The learning curve is gentle, the documentation is excellent, and the results are professional and polished.
+
+You can find the complete source code for this website on [GitHub](https://github.com/juschwartz3/Julian_Website). Feel free to use it as a template for your own site!

@@ -1,0 +1,19 @@
+/* Custom styles for Julian Schwartz website */
+
+img[alt="Headshot"] {
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.quarto-title-banner {
+  margin-bottom: 1em;
+}
+
+/* Make contact info stand out */
+h1 + p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}

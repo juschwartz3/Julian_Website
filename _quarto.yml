@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Julian Schwartz"
+  description: "Chemistry Professional - Portfolio & Blog"
+  site-url: "https://juschwartz3.github.io/Julian_Website"
+  repo-url: "https://github.com/juschwartz3/Julian_Website"
+
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: "https://github.com/juschwartz3"
+
+  page-footer:
+    center: |
+      Julian Schwartz | juschwartz3@gmail.com | 215-528-8241
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
