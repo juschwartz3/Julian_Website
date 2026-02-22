@@ -2,6 +2,8 @@
 title: "Julian Schwartz"
 page-layout: article
 toc: false
+title-block-banner: Images/wow.png
+title-block-banner-color: white
 ---
 
 ::: {.profile-header}
@@ -59,6 +61,3 @@ toc: false
 - **Instrumentation:** GC-MS, LC-MS, GPC, FTIR, UV-vis, Wet Digestion, TGA, DSC, ICP-OES
 - **Software:** Excel, PowerPoint, MassHunter, ChemStation, Trios
 
----
-
-![wow](Images/wow.png)
