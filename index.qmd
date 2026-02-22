@@ -8,7 +8,7 @@ title-block-banner-color: white
 
 ::: {.profile-header}
 ::: {.profile-photo}
-![Headshot](Images/Headshot.jpg)
+![](Images/Headshot.jpg)
 :::
 ::: {.profile-info}
 **Chemistry Professional**
