@@ -13,8 +13,7 @@ title-block-banner-color: white
 ::: {.profile-info}
 **Chemistry Professional**
 
-973 Valley Road, Blue Bell, Pennsylvania
-215-528-8241 • juschwartz3@gmail.com
+215-528-8241 • jjs8619@psu.edu
 :::
 :::
 
