@@ -9,6 +9,8 @@ toc: false
 
 ![Headshot](Images/Headshot.jpg)
 
+![wow](Images/wow.png)
+
 ---
 
 ## Education
