@@ -11,7 +11,7 @@ title-block-banner-color: white
 ![](Images/Headshot.jpg)
 :::
 ::: {.profile-info}
-**Chemistry Professional**
+**Chemistry Doctoral Student**
 
 215-528-8241 • jjs8619@psu.edu
 :::

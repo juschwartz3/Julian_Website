@@ -7,6 +7,13 @@
   padding: 3rem 1rem;
 }
 
+.quarto-title-banner .title {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  display: inline-block;
+}
+
 /* ── Profile header ────────────────────────────────────── */
 .profile-header {
   display: flex;
